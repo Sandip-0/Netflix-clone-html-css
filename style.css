@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+body>section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.img {
+    filter: opacity(60%);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: white;
+    position: absolute;
+    flex-basis: 50%;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    column-gap: 4cm;
+}
+
+button {
+    background: red;
+    color: white;
+    padding: 20px;
+    border-radius: 9px;
+
+}
+
+input {
+    background-color: rgba(95, 69, 69, 0.41);
+    padding: 20px;
+    padding-left: 30px;
+    border: 2px solid white;
+}
+
+::placeholder {
+    color: white;
+    padding: 4px;
+    padding-left: 10px;
+}
+
+.saparation {
+    height: 7px;
+    width: auto;
+    background-color: rgba(157, 116, 116, 0.495);
+}
+
+.box {
+    height: 414px;
+    width: auto;
+    margin-left: 40%;
+}
+
+video {
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 79%;
+    max-height: 54%;
+    position: absolute;
+    top: 18%;
+    left: 25.7%;
+}
+
+
+.box2 {
+    height: 305px;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 0%;
+}
